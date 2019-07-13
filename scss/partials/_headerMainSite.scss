@@ -17,8 +17,12 @@ header {
       flex: 1;
       nav {
         padding-top: 42px;
+        // display: flex;
+        // align-items: flex-end;
         display: flex;
-        align-items: flex-end;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         a.nav-el {
           color: rgb(24, 24, 27);
           font-size: 17px;
@@ -26,6 +30,7 @@ header {
           letter-spacing: 2px;
           padding: 0 35px;
           transition: .3s;
+          text-align:center;
           &:hover {
             color: $main-color;
             text-decoration: none;

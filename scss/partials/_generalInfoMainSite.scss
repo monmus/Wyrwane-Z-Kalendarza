@@ -1,0 +1,25 @@
+@import "partials/global";
+
+
+//SECTION GENERAL INFO
+
+.general-info {
+    background-color: whitesmoke;
+    overflow: hidden;
+    .container {
+      position: relative;
+    }
+    img {
+      position: absolute;
+      bottom: -100px;
+      background-size: cover;
+      height: 495px;
+      width: 615px;
+      right: -119px;
+      top: -112px;
+    
+    }
+    h2 span {
+      display: block;
+    }
+  }

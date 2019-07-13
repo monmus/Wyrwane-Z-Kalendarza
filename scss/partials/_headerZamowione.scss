@@ -1,0 +1,52 @@
+@import "partials/global";
+
+
+// SECTION HEADER ZAMOWIONE
+
+.zamowione {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 30vh;
+    background-position: center bottom;
+    position: relative;
+    .main-nav {
+      flex: 1;
+      nav {
+        padding-top: 42px;
+        display: flex;
+        align-items: flex-end;
+        a.nav-el {
+          color: rgb(24, 24, 27);
+          font-size: 17px;
+          font-weight: bold;
+          letter-spacing: 2px;
+          padding: 0 35px;
+          transition: .3s;
+          &:hover {
+            color: $main-color;
+            text-decoration: none;
+          }
+        }
+        img.logo-lg {
+          padding: 0 60px;
+          
+        }
+        img.logo-sm {
+          display: none;
+        }
+        button#hamburger-menu {
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          i.fa-bars {
+            display: none;
+            color:  rgb(24, 24, 27);
+            font-size: 50px;
+          }
+        }
+      }
+    }
+  }

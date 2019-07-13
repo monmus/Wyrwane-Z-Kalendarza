@@ -1,0 +1,69 @@
+@import "partials/global";
+
+//SECTION ABOUT DESIGN
+
+.about-design {
+    overflow: hidden;
+    .container {
+      position: relative;
+    }
+    h4 {
+      margin-bottom: 0;
+      padding-top: 40px;
+      font-size: 13px;
+      letter-spacing: 2.5px;
+      font-weight: bold;
+    }
+    .phone-lg img {
+      position: absolute;
+      bottom: -100px;
+      background-size: cover;
+      height: 431px;
+      width: 392px;
+      right: 164px;
+      top: -112px;
+    }
+    .phone-sm {
+      display: none;
+    }
+  }
+  
+  .mySlides1 {
+    display: none;
+  }
+  
+  .slideshow-container {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+  }
+ 
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 12px;
+    margin-top: 304px;
+    line-height: 20px;
+    transition: .2s;
+    font-size: 15px;
+    user-select: none;
+  }
+  
+ 
+  .next {
+    right: 159px;
+    // border-radius: 3px 0 0 3px;
+  }
+  
+  .prev {
+    right: 468px;
+    // border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    color: $main-color;
+    text-decoration: none;
+  }
+  
+  

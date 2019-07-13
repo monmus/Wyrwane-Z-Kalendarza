@@ -1,0 +1,205 @@
+@import "partials/global";
+
+//MEDIA QUERIES
+
+@media (max-width: 837px) {
+
+    section {
+      padding-top: 70px;
+      padding-bottom: 60px;
+    }
+  
+    header, .jakzamawiac, .zamowione{
+        transition: all 0.5s ease-in-out;
+      .main-nav {
+        &.wide {
+        width: 100%;
+        text-align: center;
+        background-image: linear-gradient(rgb(96, 97, 131), transparent);
+        min-height: 20vh;
+        }
+        nav {
+          padding-top: 10px;
+          width: 90vw;
+          margin: 0 auto;
+          justify-content: space-between;
+          a {
+            display: none;
+          }
+          img.logo-lg {
+            display: none;
+          }
+          img.logo-sm {
+            display: block;
+          }
+          button#hamburger-menu {
+            i.fa-bars {
+              display: block;
+            }
+          }
+          &.expanded {
+            flex-wrap: wrap;
+            a.nav-el {
+              display: block;
+              text-align: center;
+              flex-basis: 100%;
+              padding: 15px 0;
+            }
+          }
+        }
+      }
+  
+      .hero {
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1 {
+          font-size: 28px;
+        }
+      }
+  
+      .social {
+        min-height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+  
+    }
+  
+    .general-info, .general-info1 {
+      padding-bottom: 0;
+      .col-md-7, .phone-lg, .year, .month, .day, .dayname, .year2 {
+        display: none;
+      }
+      .col-md-12, .phone-sm, .yearsm, .monthsm, .daysm, .daynamesm, .yearsm2 {
+        display: block;
+        text-align: center;
+        img {
+          height: 10px;
+          padding: 75px;
+          margin: 95px;
+        }
+      }
+        h2 span {
+          display: inline;
+        }
+      }
+  
+  
+    .about-design, .about-design1, .about-design2 {
+      .phone-lg {
+        display: none;
+      }
+      .phone-sm  {
+        display: block;
+        text-align: center;
+        img {
+          height: 40vh;
+          padding: 10px
+        }
+      }
+      .arrows {
+        text-align: center;
+        margin: 10px 0;
+      }
+      .arrow-left {
+        padding: 0 9px 0 0;
+      }
+      .arrow-right {
+        padding: 0 0 0 9px;
+      }
+    }
+  
+    .gallery {
+      .gallery-arrows {
+        text-align: center;
+        .arrow-left {
+          padding: 0 9px 0 0;
+        }
+        .arrow-right {
+          padding: 0 0 0 9px;
+        }
+      }
+      .gallery-img {
+        margin: 5px auto;
+        width: 80%;
+        height: auto;
+      }
+      .gallery-el {
+        text-align: center;
+        color: $font-main;
+        padding-bottom: 30px;
+      }
+    }
+  
+    .formToFill{
+      .row {
+        flex-direction: column-reverse;
+      }
+      .col-25 {
+        margin-bottom: 3px;
+      }
+      .col-50{
+        flex: 16%;
+      }
+    }
+  
+  }
+  
+  @media (max-width: 799px) and (orientation: landscape) {
+    header .main-nav {
+      flex: 1.5;
+      nav.expanded a.nav-el {
+        transform: translateY(-40px);
+        font-size: 15px;
+        margin: 0 60px;
+      }
+    }
+  }
+  
+  @media (max-width: 576px) {
+  
+    header {
+      .hero {
+        h1 {
+          font-size: 25px;
+        }
+      }
+    }
+  
+    footer {
+      text-align: center;
+      img {
+        display: none;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+  
+  @media (max-width: 370px) and (orientation: portrait) {
+  
+    header {
+      nav {
+        &.expanded {
+          a.nav-el {
+            padding: 0;
+          }
+        }
+      }
+    }
+    footer {
+      p {
+        padding-top: 10px;
+        line-height: 12px;
+      }
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+  

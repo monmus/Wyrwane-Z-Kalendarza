@@ -1,0 +1,76 @@
+/* GLOBAL */
+
+$main-color: #159f85;
+$back-color: #F5F6F7;
+$font-main: #373737;
+$btn-hover: #0d7c66;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+
+}
+
+
+section {
+  padding-top: 112px;
+  padding-bottom: 75px;
+}
+
+/* GLOBAL ELEMENTS STYLES */
+
+.main-btn {
+width: 170px;
+height: 49px;
+font-size: 12px;
+font-weight: bold;
+color: #fff;
+letter-spacing: 2px;
+border: none;
+border-radius: 3px;
+background-color: $main-color;
+margin-top: 30px;
+cursor: pointer;
+line-height: normal;
+transition: .3s;
+  &:hover {
+  background-color: $btn-hover;
+  }
+}
+
+.main-headline {
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: $main-color;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.main-paragraph {
+  font-size: 12.5px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  color: $font-main;
+}
+
+.arrow {
+  font-size: 30px;
+  color: #000;
+  text-decoration: none;
+  line-height: 20px;
+  transition: .2s;
+  &:hover {
+    color: $main-color;
+    text-decoration: none;
+  }
+}

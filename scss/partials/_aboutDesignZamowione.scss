@@ -1,0 +1,64 @@
+@import "partials/global";
+
+//ABOUT DESIGN
+
+.about-design2 {
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+    .container {
+      // position: relative;
+    
+    .row {
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: flex-start;
+  
+    .main-headline1 {
+      margin-bottom: 17px;
+      margin-left: 79px;
+      padding-top: 40px;
+      font-size: 16px;
+      letter-spacing: 2.5px;
+      font-weight: bold;
+      text-align: left;
+    }
+  
+    .main-headline {
+      margin-bottom: 0px;
+      padding-top: 0px;
+      font-size: 18px;
+      letter-spacing: 2.5px;
+      font-weight: bold;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    img#first {
+      position: absolute;
+      bottom: -100px;
+      background-size: cover;
+      height: 73px;
+      width: 50px;
+      left: 15px;
+      top: 61px;
+    }
+  
+    img#second {
+      position: absolute;
+      bottom: -100px;
+      background-size: cover;
+      height: 62px;
+      width: 44px;
+      left: 18px;
+      top: 67px;
+    }
+  
+  }
+  }
+    .phone-sm {
+      display: none;
+    }
+  }
+  

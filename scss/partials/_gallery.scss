@@ -1,0 +1,35 @@
+@import "partials/global";
+
+//SECTION GALLERY
+
+.gallery {
+    background-color: $back-color;
+    .gallery-arrows {
+      text-align: right;
+      .arrow-left, .arrow-right {
+          padding-left: 9px;
+      }
+    }
+    .gallery-img {
+      display: block;
+      width: 100%;
+    }
+    .gallery-el {
+      text-align: center;
+      color: $font-main;
+      img {
+        margin: 20px 0;
+      }
+      h4 {
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 12px;
+        width: 50%;
+        margin: 0 auto;
+      }
+    }
+  }

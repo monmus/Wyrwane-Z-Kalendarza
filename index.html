@@ -1,0 +1,220 @@
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <title>wyrwane</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <script src='https://code.jquery.com/jquery-3.4.0.min.js'></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <link type="text/css" href="css/ui-lightness/jquery-ui-1.9.1.custom.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+  <script>
+      var slideIndex = [1];
+      var slideId = ["mySlides1"]
+      showSlides(1, 0);
+      showSlides(1, 1);
+      
+      function plusSlides(n, no) {
+        showSlides(slideIndex[no] += n, no);
+      }
+      
+      function showSlides(n, no) {
+        var i;
+        var x = document.getElementsByClassName(slideId[no]);
+        if (n > x.length) {slideIndex[no] = 1}    
+        if (n < 1) {slideIndex[no] = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        x[slideIndex[no]-1].style.display = "block";  
+      }
+  </script>
+      
+
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+
+<!-- HEADER-->
+
+ <header>
+
+      <div class="main-nav">
+        <nav>
+          <img src="images/calendar3.png" alt="logo" class="logo-sm">
+          <button id="hamburger-menu"><i class="fa fa-bars"></i></button>
+          <a href="/home/monika/Pulpit/my project3/projekt/jakzamawiac.html" class="nav-el">jak zamawiać?</a>
+          <a href="#" class="nav-el">cennik</a>
+          <a href="/home/monika/Pulpit/my project3/projekt/index.html"><img src="images/calendar3.png" alt="logo" class="logo-lg"></a>
+          <a href="#" class="nav-el">galeria</a>
+          <a href="#" class="nav-el">kontakt</a>
+        </nav>
+      </div>
+      <div class="hero">
+        <h1>SZUKASZ PREZENTU?</h1>
+        <p>podaruj bliskiej osobie kartkę z kalendarza</p>
+        <button class="main-btn">JAK TO DZIAŁA?</button>
+      </div>
+      <div class="social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-gmail"></i></a>
+      </div>
+
+</header>
+
+<!-- GENERAL INFO-->
+
+<section class="general-info">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <h2 class="main-headline">ORYGINALNY POMYSŁ NA PREZENT<span>KARTKA Z KALENDARZA</h2>
+        <p class="main-paragraph">Lorem ipsum dolor sit amet, in his alia perpetua
+          elaboraret. Commune phaedrum eu mea, id vis maiorum <b>mentitum eligendi</b>.
+          Stet offendit dissentias ei eum. Minimum definitiones eu pro, ea phaedrum
+          partiendo eam. Magna fastidii delectus at cum.</p>
+        <button class="main-btn">GALERIA</button>
+      </div>
+      <div class="col-12 col-md-7 left-no-padding">
+        <img src="images/gift.jpg" alt="phone">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- DESIGN-->
+
+<section class="about-design">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 phone-lg">
+
+          <div class="slideshow-container">
+              <div class="mySlides1">
+                <img src="images/giraffe1.jpg" style="width:60%">
+              </div>
+            
+              <div class="mySlides1">
+                <img src="images/ballons.jpg" style="width:60%">
+              </div>
+            
+              <div class="mySlides1">
+                <img src="images/ballons2.jpg" style="width:60%">
+              </div>
+            
+              <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+          </div>
+
+      </div>
+      <div class="col-12 col-md-5">
+        <h2 class="main-headline">DESIGN</h2>
+        <p class="main-paragraph">Lorem ipsum dolor sit amet, in his alia perpetua
+          elaboraret. Commune phaedrum eu mea, id vis maiorum mentitum eligendi.
+          Stet offendit dissentias ei eum. Minimum definitiones eu pro, ea phaedrum
+          partiendo eam. Magna fastidii delectus at cum.</p>
+        <button class="main-btn"><a href="/home/monika/Pulpit/my project3/projekt/jakzamawiac.html">ZAMÓW</button></a>
+      </div>
+      <div class="col-12 phone-sm">
+          <img src="images/giraffe1.jpg" alt="phone">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- GALERY-->
+
+<section class="gallery">
+
+  <div class="container">
+    <div class="gallery-arrows">
+      <a href="#" class="arrow arrow-left"><</a>
+      <a href="#" class="arrow arrow-right">></a>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <div class="gallery-el">
+          <img src="images/calendar3.png" alt="logo">
+          <h4>OUR PHOTOS</h4>
+          <p>Lorem ipsum dolor sit amet, in his alia perpetua
+          elaboraret.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img src="images/grass.jpg" class="gallery-img" alt="photo">
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img src="images/whiteflower.jpg" class="gallery-img" alt="photo">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- CONTACT-->
+
+<section id='form' class='contact'>
+
+    <article class="contacttext-wrapper">
+      <h2 class="contacttext-header">Kontakt Info:  </h2>
+      <p class="contacttext-main">Praesent interdum congue mauris, et fringilla lacus pel vitae. Quisque nisl mauris, aliquam eu ultrices vel, conse vitae sapien at imperdiet risus. Quisque cursus risus id. fermentum, in auctor quam consectetur.</p>
+      <p><span>Address:   </span>
+        <span> Krakow</span>
+      </p>
+      <p>
+        <span>Phone: </span>
+        <span>  +12 122 122 122 </span>
+      </p>
+      <p>
+        <span>Email: </span>
+        <span>  monikmusial@gmail.com</span>
+      </p>
+      <div class="social-icons">
+        <div class="wrapper">
+          <a class="fb" href="https://www.facebook.com/" target="blank">
+            <img src="./images/fb.png">
+          </a>
+            <a class="insta" href="https://www.instagram.com/" target="blank">
+              <img src="./images/insta.png">
+            </a>
+        </div>
+      </div>
+      </article>
+      <article class="contact-form">
+        <form class="form">
+          <input value="" placeholder="Imię i nazwisko:" type="text">
+          <input value="" placeholder="Adres e-mail:" type="text">
+          <textarea placeholder="Napisz wiadomość">
+    
+          </textarea>
+          <button>wyślij wiadomość</button>
+        </form>
+    </article>
+
+</section>
+
+<!-- FOOTER-->
+    
+<section class="footer">
+  <p>©2019 wyrwane</p>
+  <img src="images/calendar4.png" alt="logo">
+</section>
+
+</body>
+
+</html>

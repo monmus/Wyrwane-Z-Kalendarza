@@ -1,0 +1,184 @@
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <title>wyrwane</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- <script src='https://code.jquery.com/jquery-3.4.0.min.js'></script> -->
+
+  <!-- <link type="text/css" href="css/ui-lightness/jquery-ui-1.9.1.custom.min.css" rel="stylesheet" /> -->
+  
+  <!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script> -->
+
+  <!-- <link href="./css/glDatePicker.flatwhite.css" rel="stylesheet" type="text/css"> -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <!-- <script src="./js/glDatePicker.min.js"></script> -->
+
+  <!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+
+<!-- HEADER-->
+
+<header class='zamowione'>
+
+      <div class="main-nav">
+        <nav>
+          <img src="images/calendar4.png" alt="logo" class="logo-sm">
+          <button id="hamburger-menu"><i class="fa fa-bars"></i></button>
+          <a href="#" class="nav-el">jak zamawiać?</a>
+          <a href="#" class="nav-el">cennik</a>
+          <a href="/home/monika/Pulpit/my project3/projekt/index.html"><img src="images/calendar4.png" alt="logo" class="logo-lg"></a>
+          <a href="#" class="nav-el">galeria</a>
+          <a href="#" class="nav-el">kontakt</a>
+        </nav>
+      </div>
+
+</header>
+
+<!-- CENNIK-->
+
+<section class="about-design2">
+
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-12 col-md-5"> -->
+        <h2 class="main-headline">ZAMÓWIENIE</h2>
+        <!-- <h3 class="main-headline1">ZAWARTOŚĆ KOSZYKA</h2> -->
+        <br>
+     
+        <img src="images/frame1.png" alt="phone" id="first">
+        <img src="images/kartka1.jpeg" alt="phone" id='second'>
+
+        <h2 class="main-headline1">
+        Rozmiar: 15x10 cm
+        Podstawowy zestaw zawiera wybraną kartkę z kalendarza wraz z ramką -  <b>39,90 zł</b>
+        </p>
+      <!-- </div> -->
+        <div class="col-12 phone-sm">
+        </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="about-design2">
+
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-12 col-md-5"> -->
+        <h2 class="main-headline">TWOJE DANE</h2>
+        <br>
+        <div class="col-12 phone-sm">
+      </div>
+    <!-- </div> -->
+  </div>
+
+</section>
+
+<!-- FORM TO FILL-->
+
+
+<section class='formToFill'>
+
+<div class="row">
+    <div class="col-75">
+      <div class="container">
+        <!-- <form action="/action_page.php"> -->
+        
+          <div class="row">
+            <div class="col-50">
+              <h3>Wysyłka na adres</h3>
+              <label for="fname"><i class="fa fa-user"></i> Imię i nazwisko/Nazwa</label>
+              <input type="text" id="fname" name="firstname" placeholder="Anna Kowalska">
+              <label for="email"><i class="fa fa-envelope"></i> Email</label>
+              <input type="text" id="email" name="email" placeholder="anna@example.com">
+              <label for="adr"><i class="fa fa-address-card-o"></i> Adres</label>
+              <input type="text" id="adr" name="address" placeholder="Równa 16">
+              <label for="city"><i class="fa fa-institution"></i>Miasto</label>
+              <input type="text" id="city" name="city" placeholder="Kraków">
+  
+              <div class="row">
+                <div class="col-50">
+                  <label for="state">Województwo</label>
+                  <input type="text" id="state" name="state" placeholder="małopolskie">
+                </div>
+                <div class="col-50">
+                  <label for="zip">Kod Pocztowy</label>
+                  <input type="text" id="zip" name="zip" placeholder="32-234">
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-50">
+              <h3>Sposoby Płatności</h3>
+              <label for="fname">Akceptowane Karty Kredytowe</label>
+              <div class="icon-container">
+                <i class="fa fa-cc-visa" style="color:navy;"></i>
+                <i class="fa fa-cc-amex" style="color:blue;"></i>
+                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                <i class="fa fa-cc-discover" style="color:orange;"></i>
+              </div>
+              <label for="cname">Imię i Nazwisko</label>
+              <input type="text" id="cname" name="cardname" placeholder="Anna Kowalska">
+              <label for="ccnum">Numer Karty Kredytowej</label>
+              <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+              <label for="expmonth">Ważne do: Miesiąc</label>
+              <input type="text" id="expmonth" name="expmonth" placeholder="September">
+              <div class="row">
+                <div class="col-50">
+                  <label for="expyear">Ważne do: Rok</label>
+                  <input type="text" id="expyear" name="expyear" placeholder="2018">
+                </div>
+                <div class="col-50">
+                  <label for="cvv">CVV</label>
+                  <input type="text" id="cvv" name="cvv" placeholder="352">
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <label>
+            <input type="checkbox" checked="checked" name="sameadr"> Adres wysyłki taki sam jak w zamówieniu
+          </label>
+          <input type="submit" value="Przejdź do płatności" class="btn">
+        <!-- </form> -->
+      </div>
+    </div>
+    <div class="col-25">
+      <div class="container">
+        <h4>Koszyk <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>1</b></span></h4>
+        <p><a href="#">Kartka+Ramka</a> <span class="price">59 PLN</span></p>
+        <hr>
+        <p>Razem <span class="price" style="color:black"><b>59 PLN</b></span></p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+<!-- FOOTER-->
+
+<section class="footer">
+    <p>©2019 wyrwane</p>
+    <img src="images/calendar4.png" alt="logo">
+  </section>
+
+</body>
+
+</html>

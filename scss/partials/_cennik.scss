@@ -1,0 +1,41 @@
+@import "partials/global";
+
+//SECTION CENNIK
+
+.about-design1 {
+    overflow: hidden;
+    padding: 10px;
+    .container {
+      position: relative;
+    }
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    h2 {
+      margin-bottom: 0;
+      padding-top: 0px;
+      font-size: 18px;
+      letter-spacing: 2.5px;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    // .phone-lg img {
+    //   position: absolute;
+    //   bottom: -100px;
+    //   background-size: cover;
+    //   height: 533px;
+    //   width: 392px;
+    //   right: 164px;
+    //   top: -112px;
+    // }
+    // .arrow-left, .arrow-right {
+    //     padding-right: 9px;
+    // }
+    .phone-sm {
+      display: none;
+    }
+  }

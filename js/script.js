@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
+//HAMBURGER MENU
+
     var hamburgerMenu = document.querySelector('#hamburger-menu');
     hamburgerMenu.addEventListener('click', function() {
       document.querySelector('header nav').classList.toggle('expanded');
@@ -13,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     $('header .main-nav').css('transform', 'translateY(' + img + ')');
 });
 
+//CALENDAR SHOWING
 
 $(function()
 {
@@ -50,8 +53,10 @@ $(function()
         //  }
 
     });
-    
+  
+  //POBIERANIE WARTOSCI Z INPUTA W TAKI SPOSÓB, ZEBY ZACZYTYWAC ZE STRINGA POTRZEBNE DANE I WRZUCAC W ODPOWIEDNIE SPANY  
 
+  //day - pobranie inputa, przekazanie do spana
   $("input").on("click",function(){
     var selected = $('input').val();
 
@@ -69,6 +74,7 @@ $(function()
     
   });
 
+  //year - pobranie inputa, przekazanie do spana
   $("input").on("click",function(){
     var selected = $('input').val();
 
@@ -87,6 +93,7 @@ $(function()
         $('.yearsm2').text(selectedYear);
     });
 
+  //month - pobranie inputa, przekazanie do spana
   $("input").on("click",function(){
     var selected = $('input').val();
 

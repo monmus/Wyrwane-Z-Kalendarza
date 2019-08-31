@@ -2,7 +2,7 @@
 
 Responsive page, created as the final project
 
-Used technologies:
+# Used technologies:
 
     HTML 5
     CSS
